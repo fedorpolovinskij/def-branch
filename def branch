@@ -1,0 +1,3 @@
+ def branch(self, new_branch):
+        self.branches[new_branch] = self.branches[self.current_branch].copy()
+        print(f"Created branch: {new_branch}")
